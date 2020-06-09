@@ -43,7 +43,7 @@
       <plugin>
         <groupId>org.liquibase</groupId>
         <artifactId>liquibase-maven-plugin</artifactId>
-        <version>3.0.5</version>
+        <version>3.3.0</version>
         <configuration>
           <propertyFile>src/main/resources/liquibase.properties</propertyFile>
         </configuration>
