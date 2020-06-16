@@ -1,8 +1,7 @@
 --liquibase formatted sql
 --changeset debolin:20200609012500 
-INSERT INTO link (url, name)
-VALUES
- ('http://www.google.com','Google'),
- ('http://www.yahoo.com','Yahoo'),
- ('http://www.bing.com','Bing');
---rollback delete from link where url in ('http://www.google.com','http://www.yahoo.com','http://www.bing.com')
+Insert into Student (StudentName, StudentRoll) values ('Deb', 01)
+Insert into Student (StudentName, StudentRoll) values ('Avi', 02)
+Insert into Student (StudentName, StudentRoll) values ('Rob', 03)
+Insert into Student (StudentName, StudentRoll) values ('Set', 04)
+Insert into Student (StudentName, StudentRoll) values ('Joy', 05)
